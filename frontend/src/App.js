@@ -22,7 +22,7 @@ function App() {
                 <Route exact path='/rref' element={<RREF/>}></Route>
                 <Route exact path='/qr' element={<QR/>}></Route>
                 <Route exact path='/eigen' element={<Eigen/>}></Route>
-                <Route exact path='/changeofbase' element={<ChangeOfBase/>}></Route>
+                <Route exact path='/COB' element={<ChangeOfBase/>}></Route>
           </Routes>
           
 </div>

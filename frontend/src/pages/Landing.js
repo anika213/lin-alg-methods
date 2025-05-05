@@ -16,7 +16,7 @@ const Landing = () => {
         navigate('/eigen');
     }
     function GotoChangeOfBase() {
-        navigate('/changeofbase');
+        navigate('/COB');
     }
     return (
         <div style={styles.container}>
