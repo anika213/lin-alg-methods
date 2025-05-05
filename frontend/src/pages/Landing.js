@@ -11,6 +11,13 @@ const Landing = () => {
     function GotoQR() {
         navigate('/qr');
     }
+
+    function GotoEigen() {
+        navigate('/eigen');
+    }
+    function GotoChangeOfBase() {
+        navigate('/changeofbase');
+    }
     return (
         <div style={styles.container}>
             <h1 style={styles.title}>Welcome to Linear Algebra Explorer</h1>
@@ -20,7 +27,12 @@ const Landing = () => {
             <button style ={styles.button} onClick={GoToRREF}>RREF</button>
             <br></br>
             <button style ={styles.button} onClick={GotoQR}>QR</button>
+            <br></br>
+            <button style ={styles.button} onClick={GotoEigen}>Eigen</button>
+            <br></br>
+            <button style ={styles.button} onClick={GotoChangeOfBase}>Change of Basis</button>
         </div>
+
         
 
         

@@ -7,7 +7,8 @@ import {
 import Landing from './pages/Landing';
 import RREF from './pages/RREF';
 import QR from './pages/QR';
-
+import Eigen from './pages/Eigen';
+import ChangeOfBase from './pages/ChangeOfBase';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
                 <Route exact path='/' element={< Landing />}></Route>
                 <Route exact path='/rref' element={<RREF/>}></Route>
                 <Route exact path='/qr' element={<QR/>}></Route>
+                <Route exact path='/eigen' element={<Eigen/>}></Route>
+                <Route exact path='/changeofbase' element={<ChangeOfBase/>}></Route>
           </Routes>
           
 </div>
